@@ -76,7 +76,7 @@ choice = st.sidebar.selectbox("Navigation", menu)
 
 
 if choice == "Home":
-    st.subheader(" Welcome To My 🔐 Data Encryption System Using Streamlit !")
+    st.subheader(" Welcome To My 🔐 Data Encryption System Using Streamlit!")
     st.markdown("Develop a Streamlit-based secure data storage and retrieval system where:Users store data  with a unique passkey.users decryte data by providing the correct passkey.Multiple failed attempt result in a forced reauthorization (login page).the system operators entirely in memory without external databases. ")
 
 
